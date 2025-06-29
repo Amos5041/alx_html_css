@@ -2,20 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jane Doe - Personal Portfolio</title>
   <link href="base.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
 </head>
-<body>
+<body class="works_on_smartphone">
   <header>
     <h1>Jane Doe</h1>
     <p>Passionate web developer focused on building accessible, responsive web experiences.</p>
   </header>
+
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <main>
     <article>
       <section id="introduction">
         <h2>Introduction</h2>
-        <p>Hello! I'm Jane, a self-taught web developer with a strong interest in front-end design and user experience.</p>
+        <p>Hello! I'm Jane, a self-taught web developer with a strong interest in front-end design and user experience. I enjoy bringing ideas to life in the browser.</p>
       </section>
 
       <section id="projects">
@@ -23,27 +34,27 @@
 
         <article class="project">
           <h3>Personal Blog Website</h3>
-          <p>A responsive blog site built with HTML, CSS, and a bit of JavaScript.</p>
+          <p>A responsive blog site built with HTML, CSS, and a bit of JavaScript. Features dark mode and an animated navigation menu.</p>
           <a href="https://example.com/blog" target="_blank">View Project</a>
         </article>
 
         <article class="project">
           <h3>Weather App</h3>
-          <p>This project fetches real-time weather data using a public API.</p>
+          <p>This project fetches real-time weather data using a public API and displays it with beautiful CSS styling.</p>
           <a href="https://example.com/weather" target="_blank">View Project</a>
         </article>
       </section>
-    </article>
-    <aside>
+
       <section id="about">
         <h2>About Me</h2>
-        <p>I'm a creative problem-solver and detail-oriented developer.</p>
+        <p>I'm a creative problem-solver and detail-oriented developer. I enjoy learning new technologies and applying them to solve real-world problems.</p>
         <ul>
           <li>Languages: HTML, CSS, JavaScript</li>
           <li>Tools: Git, VS Code, Chrome DevTools</li>
           <li>Hobbies: Reading, UI Design, Playing chess</li>
         </ul>
       </section>
+
       <section id="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:amosnjenga760@gmail.com">amosnjenga760@gmail.com</a></p>
@@ -52,8 +63,14 @@
           <a href="https://github.com/Amos5041" target="_blank">GitHub</a>
         </p>
       </section>
+    </article>
+
+    <aside>
+      <h2>News</h2>
+      <p>Stay tuned for my latest blog posts and project updates. Content will be added soon.</p>
     </aside>
   </main>
+
   <footer>
     <p>&copy; 2024 Amos Njenga</p>
   </footer>
